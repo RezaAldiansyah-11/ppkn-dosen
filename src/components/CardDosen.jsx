@@ -16,7 +16,7 @@ export default function CardDosen({ dosen, lang }) {
       
       <div className="card-body">
         <p>
-          <strong>{isEn ? "" : "Keahlian: "}</strong>
+          <strong>{isEn ? "Expertise: " : "Keahlian: "}</strong>
           {dosen.keahlian}
         </p>
         
