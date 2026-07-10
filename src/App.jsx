@@ -1,10 +1,16 @@
 import React from "react";
-import Ppkn from "./components/Ppkn";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import DaftarDosen from "./pages/DaftarDosen";
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <Ppkn />
-    </div>
+    <BrowserRouter basename="/ppkn-dosen">
+      <Routes>
+        <Route path="/" element={<Navigate to="/id" replace />} />
+        <Route path="/:lang" element={<DaftarDosen />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
+export default App;

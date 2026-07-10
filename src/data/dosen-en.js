@@ -1,14 +1,10 @@
-import React from "react";
-import fotoDosen from "../assets/1.png";
-import "./Ppkn.css";
-
-const dataDosen = [
+export const dataDosenEN = [
   {
     id: 1,
     nama: "Dr. Ichwani Siti Utami, S.Pd. M.H",
     nidn: "413018901",
-    pendidikan: { magister: "Ilmu Hukum", doktor: "Manajemen Pendidikan" },
-    keahlian: "Hukum dan PKn",
+    pendidikan: { magister: "Legal Studies", doktor: "Educational Management" },
+    keahlian: "Law and Civics",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -16,8 +12,8 @@ const dataDosen = [
     id: 2,
     nama: "Dr. Sugiyanto, S.Ip",
     nidn: "403106403",
-    pendidikan: { magister: "-", doktor: "Manajemen Pendidikan" },
-    keahlian: "Politik dan Kenegaraan",
+    pendidikan: { magister: "-", doktor: "Educational Management" },
+    keahlian: "Politics and Statecraft",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -25,8 +21,8 @@ const dataDosen = [
     id: 3,
     nama: "Roni Rustandi, S.Pd., M.H",
     nidn: "431088803",
-    pendidikan: { magister: "Ilmu Hukum", doktor: "-" },
-    keahlian: "Pendidikan",
+    pendidikan: { magister: "Legal Studies", doktor: "-" },
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -34,8 +30,8 @@ const dataDosen = [
     id: 4,
     nama: "Aulia Nursyifa, S.Pd., M.Pd",
     nidn: "417079201",
-    pendidikan: { magister: "Pendidikan Sosiologi", doktor: "-" },
-    keahlian: "Sosial",
+    pendidikan: { magister: "Sociology Education", doktor: "-" },
+    keahlian: "Social Sciences",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -43,8 +39,8 @@ const dataDosen = [
     id: 5,
     nama: "Nurdiyana, S.Pd., M.H",
     nidn: "416018202",
-    pendidikan: { magister: "Ilmu Hukum", doktor: "-" },
-    keahlian: "Hukum dan PKn",
+    pendidikan: { magister: "Legal Studies", doktor: "-" },
+    keahlian: "Law and Civics",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -52,8 +48,8 @@ const dataDosen = [
     id: 6,
     nama: "Dr. Herdi Wisman Jaya, S.Pd, M.H",
     nidn: "410082203",
-    pendidikan: { magister: "Ilmu Hukum", doktor: "Manajemen Pendidikan" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Legal Studies", doktor: "Educational Management" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -61,8 +57,8 @@ const dataDosen = [
     id: 7,
     nama: "Eti Hayati, S.Pd. M.Pd",
     nidn: "414038402",
-    pendidikan: { magister: "Pendidikan Bahasa Indonesia", doktor: "-" },
-    keahlian: "Pendidikan",
+    pendidikan: { magister: "Indonesian Language Education", doktor: "-" },
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -70,8 +66,8 @@ const dataDosen = [
     id: 8,
     nama: "Abd. Chaidir Marasabessy, M.Pd",
     nidn: "1228077002",
-    pendidikan: { magister: "Hukum dan Kewarganegaraan", doktor: "-" },
-    keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
+    pendidikan: { magister: "Law and Citizenship", doktor: "-" },
+    keahlian: "Pancasila and Civic Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -80,10 +76,10 @@ const dataDosen = [
     nama: "Dr. Ahmad Nana Mahmur, M.Pd",
     nidn: "430106001",
     pendidikan: {
-      magister: "Penelitian dan Evaluasi Pendidikan",
-      doktor: "Ilmu Pendidikan",
+      magister: "Educational Research and Evaluation",
+      doktor: "Educational Sciences",
     },
-    keahlian: "Pendidikan",
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -92,10 +88,10 @@ const dataDosen = [
     nama: "Dr. R. Dede Siswandi, S.Sos., M.Pd",
     nidn: "8847200016",
     pendidikan: {
-      magister: "Penelitian dan Evaluasi Pendidikan",
-      doktor: "Manajemen Pendidikan",
+      magister: "Educational Research and Evaluation",
+      doktor: "Educational Management",
     },
-    keahlian: "Pendidikan",
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -103,8 +99,8 @@ const dataDosen = [
     id: 11,
     nama: "Setiawati, S.Pd., M.H",
     nidn: "416089002",
-    pendidikan: { magister: "Ilmu Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Legal Studies", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -113,10 +109,10 @@ const dataDosen = [
     nama: "Mas Fierma Janvierna L P, S.Pd., M.Pd",
     nidn: "416017705",
     pendidikan: {
-      magister: "Pendidikan Pancasila dan Kewarganegaraan",
+      magister: "Pancasila and Civic Education",
       doktor: "-",
     },
-    keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
+    keahlian: "Pancasila and Civic Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -124,8 +120,8 @@ const dataDosen = [
     id: 13,
     nama: "Hendri, S.Pd., M.Pd",
     nidn: "427038803",
-    pendidikan: { magister: "Pendidikan Kewarganegaraan", doktor: "-" },
-    keahlian: "Pendidikan Kewarganegaraan",
+    pendidikan: { magister: "Civic Education", doktor: "-" },
+    keahlian: "Civic Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -134,10 +130,10 @@ const dataDosen = [
     nama: "Dr. Yatti Rosmiati, M.Pd",
     nidn: "8995420021",
     pendidikan: {
-      magister: "PIPS Konsentrasi PPKn",
-      doktor: "PIPS Konsentrasi PPKn",
+      magister: "Social Studies Education (Civics Concentration)",
+      doktor: "Social Studies Education (Civics Concentration)",
     },
-    keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
+    keahlian: "Pancasila and Civic Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -145,8 +141,8 @@ const dataDosen = [
     id: 15,
     nama: "Dewi Purnama Sari, M.Pd",
     nidn: "419069002",
-    pendidikan: { magister: "Manajemen Administrasi Pendidikan", doktor: "-" },
-    keahlian: "Pendidikan",
+    pendidikan: { magister: "Educational Administration Management", doktor: "-" },
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -154,8 +150,8 @@ const dataDosen = [
     id: 16,
     nama: "Heri Kurnia, S.Pd., M.Pd",
     nidn: "9990613986",
-    pendidikan: { magister: "Pendidikan IPS", doktor: "-" },
-    keahlian: "Sosial",
+    pendidikan: { magister: "Social Studies Education", doktor: "-" },
+    keahlian: "Social Sciences",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -163,8 +159,8 @@ const dataDosen = [
     id: 17,
     nama: "Dr. Awang Muhidin, S.Pd., M.Pd",
     nidn: "421108203",
-    pendidikan: { magister: "Sejarah", doktor: "Teknologi Pendidikan" },
-    keahlian: "Pendidikan",
+    pendidikan: { magister: "History", doktor: "Educational Technology" },
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -172,8 +168,8 @@ const dataDosen = [
     id: 18,
     nama: "Endang Prastini, S.Pd., M.H",
     nidn: "430126802",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -181,8 +177,8 @@ const dataDosen = [
     id: 19,
     nama: "Abi Robian, S.Pd, M.H",
     nidn: "404098603",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -190,8 +186,8 @@ const dataDosen = [
     id: 20,
     nama: "Amrizal Siagian, S.Hum., M.Si.",
     nidn: "406017703",
-    pendidikan: { magister: "Sains", doktor: "-" },
-    keahlian: "Sosial",
+    pendidikan: { magister: "Sciences", doktor: "-" },
+    keahlian: "Social Sciences",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -199,8 +195,8 @@ const dataDosen = [
     id: 21,
     nama: "Dini Handayani, S.Pd., M.H",
     nidn: "402018807",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -208,8 +204,8 @@ const dataDosen = [
     id: 22,
     nama: "Saepudin Karta Sasmita, S.Pd., M.Pd",
     nidn: "418099003",
-    pendidikan: { magister: "Pendidikan Kewarganegaraan", doktor: "-" },
-    keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
+    pendidikan: { magister: "Civic Education", doktor: "-" },
+    keahlian: "Pancasila and Civic Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -217,8 +213,8 @@ const dataDosen = [
     id: 23,
     nama: "Darto Wahidin, S.Pd., M.Sc",
     nidn: "404119303",
-    pendidikan: { magister: "Ketahanan Nasional", doktor: "-" },
-    keahlian: "Sosial",
+    pendidikan: { magister: "National Resilience", doktor: "-" },
+    keahlian: "Social Sciences",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -227,10 +223,10 @@ const dataDosen = [
     nama: "Lathifah Sandra Devi, S.Pd., M.Pd",
     nidn: "416019701",
     pendidikan: {
-      magister: "Pendidikan Pancasila dan Kewarganegaraan",
+      magister: "Pancasila and Civic Education",
       doktor: "-",
     },
-    keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
+    keahlian: "Pancasila and Civic Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -238,8 +234,8 @@ const dataDosen = [
     id: 25,
     nama: "Eka Setiana, S.Pd., M.H",
     nidn: "418109304",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -248,10 +244,10 @@ const dataDosen = [
     nama: "Raistin Nur Abidin, S.Pd., M.Pd",
     nidn: "403069206",
     pendidikan: {
-      magister: "Pendidikan Pancasila dan Kewarganegaraan",
+      magister: "Pancasila and Civic Education",
       doktor: "-",
     },
-    keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
+    keahlian: "Pancasila and Civic Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -260,10 +256,10 @@ const dataDosen = [
     nama: "Susi, M.Pd",
     nidn: "405047904",
     pendidikan: {
-      magister: "Pendidikan Pancasila dan Kewarganegaraan",
+      magister: "Pancasila and Civic Education",
       doktor: "-",
     },
-    keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
+    keahlian: "Pancasila and Civic Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -271,8 +267,8 @@ const dataDosen = [
     id: 28,
     nama: "Muhammad Suheppy, S.Pd., M.Pd",
     nidn: "413057405",
-    pendidikan: { magister: "Pendidikan Bahasa Inggris", doktor: "-" },
-    keahlian: "Pendidikan",
+    pendidikan: { magister: "English Language Education", doktor: "-" },
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -280,8 +276,8 @@ const dataDosen = [
     id: 29,
     nama: "Nurullita Sari, S.Pd., MH",
     nidn: "409079201",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -289,8 +285,8 @@ const dataDosen = [
     id: 30,
     nama: "Yayuk Muji Rahayu, M.Pd",
     nidn: "-",
-    pendidikan: { magister: "Pendidikan Ilmu Pengetahuan Sosial", doktor: "-" },
-    keahlian: "Sosial",
+    pendidikan: { magister: "Social Studies Education", doktor: "-" },
+    keahlian: "Social Sciences",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -298,8 +294,8 @@ const dataDosen = [
     id: 31,
     nama: "Ruli Hardi, S.Pd., M.Pd",
     nidn: "8875200016",
-    pendidikan: { magister: "Teknologi Pembelajaran", doktor: "-" },
-    keahlian: "Pendidikan",
+    pendidikan: { magister: "Instructional Technology", doktor: "-" },
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -307,8 +303,8 @@ const dataDosen = [
     id: 32,
     nama: "M. Finandar, S.Pd., M.Pd",
     nidn: "-",
-    pendidikan: { magister: "Teknologi Pendidikan", doktor: "-" },
-    keahlian: "Pendidikan",
+    pendidikan: { magister: "Educational Technology", doktor: "-" },
+    keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -316,8 +312,8 @@ const dataDosen = [
     id: 33,
     nama: "Ivana Aprilia Herliyanikova, M.H",
     nidn: "-",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -325,8 +321,8 @@ const dataDosen = [
     id: 34,
     nama: "Supandri, M.H",
     nidn: "-",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -334,8 +330,8 @@ const dataDosen = [
     id: 35,
     nama: "Suanto, S.Pd., M.H",
     nidn: "427108902",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
@@ -343,58 +339,9 @@ const dataDosen = [
     id: 36,
     nama: "Sulastri, S.Pd., M.H",
     nidn: "417029001",
-    pendidikan: { magister: "Hukum", doktor: "-" },
-    keahlian: "Hukum",
+    pendidikan: { magister: "Law", doktor: "-" },
+    keahlian: "Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
 ];
-
-function CardDosen({ dosen }) {
-  return (
-    <div className="card-dosen">
-      <img src={fotoDosen} alt={dosen.nama} className="foto-dosen" />
-
-      <div className="card-header">
-        <h3>{dosen.nama}</h3>
-        <p className="nidn">NIDN: {dosen.nidn}</p>
-      </div>
-      <div className="card-body">
-        <p>
-          <strong>Keahlian:</strong> {dosen.keahlian}
-        </p>
-        <div className="pendidikan">
-          <small>S2: {dosen.pendidikan.magister}</small>
-          {dosen.pendidikan.doktor !== "-" && (
-            <small>S3: {dosen.pendidikan.doktor}</small>
-          )}
-        </div>
-      </div>
-      {dosen.pddikti && (
-        <a
-          href={dosen.pddikti}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link-pddikti"
-        >
-          PDDikti
-        </a>
-      )}
-    </div>
-  );
-}
-
-function Ppkn() {
-  return (
-    <div className="app-container">
-      <h1 className="title">Daftar Dosen Prodi PPKn</h1>
-      <div className="grid-dosen">
-        {dataDosen.map((dosen) => (
-          <CardDosen key={dosen.id} dosen={dosen} />
-        ))}
-      </div>
-    </div>
-  );
-}
-
-export default Ppkn;
