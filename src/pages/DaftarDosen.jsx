@@ -4,7 +4,7 @@ import { dataDosenID } from "../data/dosen-id";
 import { dataDosenEN } from "../data/dosen-en";
 import CardDosen from "../components/CardDosen";
 
-export default function DaftarDosen() {
+function DaftarDosen() {
   const { lang } = useParams();
 
   if (lang !== "id" && lang !== "en") {
@@ -25,9 +25,11 @@ export default function DaftarDosen() {
 
       <div className="grid-dosen">
         {currentData.map((dosen) => (
-          <CardDosen key={dosen.id} dosen={dosen} />
+          <CardDosen key={dosen.id} dosen={dosen} lang={lang} />
         ))}
       </div>
     </div>
   );
 }
+
+export default DaftarDosen;

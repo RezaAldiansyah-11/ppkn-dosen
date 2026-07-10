@@ -141,7 +141,10 @@ export const dataDosenEN = [
     id: 15,
     nama: "Dewi Purnama Sari, M.Pd",
     nidn: "419069002",
-    pendidikan: { magister: "Educational Administration Management", doktor: "-" },
+    pendidikan: {
+      magister: "Educational Administration Management",
+      doktor: "-",
+    },
     keahlian: "Education",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
@@ -196,7 +199,7 @@ export const dataDosenEN = [
     nama: "Dini Handayani, S.Pd., M.H",
     nidn: "402018807",
     pendidikan: { magister: "Law", doktor: "-" },
-    keahlian: "Law",
+    keahlian: "Expertise: Law",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
   },
