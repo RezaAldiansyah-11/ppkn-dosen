@@ -1,16 +1,14 @@
-import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import DaftarDosen from "./pages/DaftarDosen";
+import React from 'react'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
+import DaftarDosen from './pages/DaftarDosen'
 
-function App() {
+export default function App() {
   return (
-    <BrowserRouter basename="/ppkn-dosen">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/id" replace />} />
         <Route path="/:lang" element={<DaftarDosen />} />
       </Routes>
-    </BrowserRouter>
-  );
+    </HashRouter>
+  )
 }
-
-export default App;
