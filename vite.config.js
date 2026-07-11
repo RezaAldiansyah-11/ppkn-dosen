@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+const isVercel = process.env.VERCEL === "true";
 export default defineConfig({
   plugins: [react()],
-  base: "/ppkn-dosen/",
+  base: isVercel ? "/" : "/ppkn-dosen/",
 });
