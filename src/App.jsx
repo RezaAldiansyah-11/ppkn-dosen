@@ -4,7 +4,7 @@ import DaftarDosen from "./pages/DaftarDosen";
 
 function App() {
   return (
-    <BrowserRouter basename="/ppkn-dosen">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/id" replace />} />
         <Route path="/:lang" element={<DaftarDosen />} />
