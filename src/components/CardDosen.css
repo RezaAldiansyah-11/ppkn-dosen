@@ -1,13 +1,7 @@
 .app-container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 20px;
-}
-
-.title {
-  text-align: center;
-  margin-bottom: 40px;
-  color: #2d3748;
 }
 
 .grid-dosen {
@@ -27,6 +21,7 @@
   align-items: center;
   text-align: center;
   transition: transform 0.2s;
+  height: 100%;
 }
 
 .card-dosen:hover {
@@ -56,6 +51,9 @@
 .card-body {
   width: 100%;
   flex-grow: 1;
+  display: flex; /* Tambahin ini */
+  flex-direction: column; /* Tambahin ini */
+  align-items: center; /* Biar teks dan tombol di dalamnya tetep center */
 }
 
 .card-body p {
@@ -68,6 +66,7 @@
   border-top: 1px solid #edf2f7;
   padding-top: 12px;
   margin-top: 12px;
+  margin-bottom: 24px;
 }
 
 .pendidikan small {
@@ -79,7 +78,6 @@
 
 .link-pddikti {
   display: inline-block;
-  margin-top: 16px;
   padding: 10px 30px;
   background-color: #012223;
   color: white;
@@ -88,6 +86,7 @@
   font-size: 13px;
   font-weight: 500;
   transition: background-color 0.2s;
+  margin-top: auto;
 }
 
 .link-pddikti:hover {

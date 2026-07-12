@@ -7,6 +7,7 @@ export const dataDosenID = [
     keahlian: "Hukum dan PKn",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Ichwani.png",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const dataDosenID = [
     keahlian: "Politik dan Kenegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Sugiyanto.jpg",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Roni_Rustandi.jpg",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const dataDosenID = [
     keahlian: "Sosial",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const dataDosenID = [
     keahlian: "Hukum dan PKn",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "herdi_wisman_jaya.jpg",
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 9,
@@ -82,6 +90,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Ahmad_Nana_Mahmur.jpg",
   },
   {
     id: 10,
@@ -94,6 +103,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "R_dede_Siswandi.jpg",
   },
   {
     id: 11,
@@ -103,6 +113,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Setiawati.jpg",
   },
   {
     id: 12,
@@ -115,6 +126,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Mas_Fierna_Janvierna.jpg",
   },
   {
     id: 13,
@@ -124,6 +136,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan Kewarganegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 14,
@@ -136,6 +149,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Yatti_rosmiati.jpg",
   },
   {
     id: 15,
@@ -145,6 +159,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Dewi_Purnama_seri.jpg",
   },
   {
     id: 16,
@@ -154,6 +169,7 @@ export const dataDosenID = [
     keahlian: "Sosial",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Heri_Kurnia.jpg",
   },
   {
     id: 17,
@@ -163,6 +179,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 18,
@@ -172,6 +189,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Endang_Prastini.jpg",
   },
   {
     id: 19,
@@ -181,6 +199,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Abi Robian.jpg",
   },
   {
     id: 20,
@@ -190,6 +209,7 @@ export const dataDosenID = [
     keahlian: "Sosial",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 21,
@@ -199,6 +219,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Dini_handayani.jpg",
   },
   {
     id: 22,
@@ -208,6 +229,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Saepudin_Karta_Sasmita.jpg",
   },
   {
     id: 23,
@@ -217,6 +239,7 @@ export const dataDosenID = [
     keahlian: "Sosial",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 24,
@@ -229,6 +252,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Lathifah_Sandra.jpg",
   },
   {
     id: 25,
@@ -238,6 +262,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 26,
@@ -250,6 +275,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Raistin_Nur_Abidin.jpg",
   },
   {
     id: 27,
@@ -262,6 +288,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan Pancasila dan Kewarganegaraan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Susi.jpg",
   },
   {
     id: 28,
@@ -271,6 +298,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Suhappy.jpg",
   },
   {
     id: 29,
@@ -280,6 +308,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Nurrullita.jpg",
   },
   {
     id: 30,
@@ -289,6 +318,7 @@ export const dataDosenID = [
     keahlian: "Sosial",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Yayuk_Muji_Rahayu.jpg",
   },
   {
     id: 31,
@@ -298,6 +328,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 32,
@@ -307,6 +338,7 @@ export const dataDosenID = [
     keahlian: "Pendidikan",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 33,
@@ -316,6 +348,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Ivana_Aprilliana-.jpg",
   },
   {
     id: 34,
@@ -325,6 +358,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
   {
     id: 35,
@@ -334,6 +368,7 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "Suanto.jpg",
   },
   {
     id: 36,
@@ -343,5 +378,6 @@ export const dataDosenID = [
     keahlian: "Hukum",
     pddikti:
       "https://pddikti.kemdiktisaintek.go.id/detail-dosen/J4SIYB5CSWZfyLLCNbiHaom8wtBpm2ielGPhaiIU5HFesHiKNUQVpIqucj8SswoLxdUBTQ==",
+    image: "1.png",
   },
 ];
